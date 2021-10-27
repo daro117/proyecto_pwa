@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1635310407361,
+  "index": "https://daro117.github.io/proyecto_pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://daro117.github.io/proyecto_pwa/favicon.ico",
+        "https://daro117.github.io/proyecto_pwa/index.html",
+        "https://daro117.github.io/proyecto_pwa/main.be12b0da7ba4fde8ece2.js",
+        "https://daro117.github.io/proyecto_pwa/manifest.webmanifest",
+        "https://daro117.github.io/proyecto_pwa/polyfills.77a1993727a31fa030dd.js",
+        "https://daro117.github.io/proyecto_pwa/runtime.18821b64a88c577ecb6a.js",
+        "https://daro117.github.io/proyecto_pwa/styles.11cf6b3a7e166a1bde8d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://daro117.github.io/proyecto_pwa/assets/icons/icon-128x128.png",
+        "https://daro117.github.io/proyecto_pwa/assets/icons/icon-144x144.png",
+        "https://daro117.github.io/proyecto_pwa/assets/icons/icon-152x152.png",
+        "https://daro117.github.io/proyecto_pwa/assets/icons/icon-192x192.png",
+        "https://daro117.github.io/proyecto_pwa/assets/icons/icon-384x384.png",
+        "https://daro117.github.io/proyecto_pwa/assets/icons/icon-512x512.png",
+        "https://daro117.github.io/proyecto_pwa/assets/icons/icon-72x72.png",
+        "https://daro117.github.io/proyecto_pwa/assets/icons/icon-96x96.png",
+        "https://daro117.github.io/proyecto_pwa/assets/shipping.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://daro117.github.io/proyecto_pwa/assets/icons/icon-128x128.png": "dae425417505b4c8d61ac890abf28ea9f339748b",
+    "https://daro117.github.io/proyecto_pwa/assets/icons/icon-144x144.png": "ff18ee24dca2375997ebe63c54d00beb54b5b52c",
+    "https://daro117.github.io/proyecto_pwa/assets/icons/icon-152x152.png": "4fbd316e14e718af1aa02e531e674a8b4b1b4ddf",
+    "https://daro117.github.io/proyecto_pwa/assets/icons/icon-192x192.png": "622d674daecccd2fbb3275f72c5d14ab1a58daad",
+    "https://daro117.github.io/proyecto_pwa/assets/icons/icon-384x384.png": "815a2f0330de843f83008842309ddd1a0418ffb1",
+    "https://daro117.github.io/proyecto_pwa/assets/icons/icon-512x512.png": "a8266972a4f44e27ea6ddceb1d557dc9c19c46f5",
+    "https://daro117.github.io/proyecto_pwa/assets/icons/icon-72x72.png": "3edec2ed28ac06bd443e1934af9953af98f263af",
+    "https://daro117.github.io/proyecto_pwa/assets/icons/icon-96x96.png": "6082083c67048eaf32522bc1fc7483d87c522f03",
+    "https://daro117.github.io/proyecto_pwa/assets/shipping.json": "9f9e342c76babd68907ccdb6c8d75b761fac74e1",
+    "https://daro117.github.io/proyecto_pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://daro117.github.io/proyecto_pwa/index.html": "0ad31f2924fc910f33edb635c0a1be3e34db4149",
+    "https://daro117.github.io/proyecto_pwa/main.be12b0da7ba4fde8ece2.js": "0776ae00ed789373c30d64c7e8891c9c7286c663",
+    "https://daro117.github.io/proyecto_pwa/manifest.webmanifest": "5b11e35c68e709b7cac3f52993049cc430ce1626",
+    "https://daro117.github.io/proyecto_pwa/polyfills.77a1993727a31fa030dd.js": "4cf661614a4ec3db0f1098456e80b8d00128d1d0",
+    "https://daro117.github.io/proyecto_pwa/runtime.18821b64a88c577ecb6a.js": "7e55b36d225118431e7c39e9bc0c06b3379216b2",
+    "https://daro117.github.io/proyecto_pwa/styles.11cf6b3a7e166a1bde8d.css": "afdfbd6fa0a454418a996df3f3117579c16d465e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
